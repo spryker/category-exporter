@@ -1,8 +1,8 @@
 <?php
 
-namespace SprykerFeature\Client\CategoryExporter;
+namespace SprykerFeature\Client\CategoryExporter\Service;
 
-use SprykerEngine\Client\Kernel\AbstractClient;
+use SprykerEngine\Client\Kernel\Service\AbstractClient;
 
 /**
  * @method CategoryExporterDependencyContainer getDependencyContainer()
