@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerFeature\Client\CategoryExporter\Model;
+namespace SprykerFeature\Client\CategoryExporter\Service\Model;
 
 use SprykerFeature\Client\KvStorage\Service\KvStorageClientInterface;
 use SprykerFeature\Shared\FrontendExporter\Code\KeyBuilder\KeyBuilderInterface;

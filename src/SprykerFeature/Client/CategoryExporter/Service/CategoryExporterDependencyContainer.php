@@ -1,11 +1,11 @@
 <?php
 
-namespace SprykerFeature\Client\CategoryExporter;
+namespace SprykerFeature\Client\CategoryExporter\Service;
 
 use Generated\Client\Ide\FactoryAutoCompletion\CategoryExporter;
-use SprykerEngine\Client\Kernel\AbstractDependencyContainer;
-use SprykerFeature\Client\CategoryExporter\Builder\CategoryTreeBuilder;
-use SprykerFeature\Client\CategoryExporter\Model\Navigation;
+use SprykerEngine\Client\Kernel\Service\AbstractDependencyContainer;
+use SprykerFeature\Client\CategoryExporter\Service\Builder\CategoryTreeBuilder;
+use SprykerFeature\Client\CategoryExporter\Service\Model\Navigation;
 use SprykerFeature\Shared\CategoryExporter\Code\KeyBuilder\NavigationKeyBuilder;
 use SprykerFeature\Shared\FrontendExporter\Code\KeyBuilder\KeyBuilderInterface;
 
