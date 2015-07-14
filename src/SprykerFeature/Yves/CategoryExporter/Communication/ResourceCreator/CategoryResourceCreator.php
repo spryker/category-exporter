@@ -4,7 +4,7 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Yves\CategoryExporter\ResourceCreator;
+namespace SprykerFeature\Yves\CategoryExporter\Communication\ResourceCreator;
 
 use Silex\Application;
 use SprykerEngine\Shared\Kernel\LocatorLocatorInterface;
@@ -13,7 +13,7 @@ use SprykerEngine\Yves\Kernel\Communication\BundleControllerAction;
 use SprykerEngine\Yves\Kernel\Communication\Controller\BundleControllerActionRouteNameResolver;
 use SprykerEngine\Yves\Kernel\Communication\ControllerLocator;
 use SprykerFeature\Shared\Category\CategoryConfig;
-use SprykerFeature\Yves\FrontendExporter\Creator\ResourceCreatorInterface;
+use SprykerFeature\Yves\FrontendExporter\Communication\Creator\ResourceCreatorInterface;
 
 class CategoryResourceCreator implements ResourceCreatorInterface
 {
