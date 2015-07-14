@@ -4,11 +4,11 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Yves\CategoryExporter;
+namespace SprykerFeature\Yves\CategoryExporter\Communication;
 
 use Generated\Yves\Ide\FactoryAutoCompletion\CategoryExporter;
 use SprykerEngine\Yves\Kernel\AbstractDependencyContainer;
-use SprykerFeature\Yves\CategoryExporter\ResourceCreator\CategoryResourceCreator;
+use SprykerFeature\Yves\CategoryExporter\Communication\ResourceCreator\CategoryResourceCreator;
 
 class CategoryExporterDependencyContainer extends AbstractDependencyContainer
 {

@@ -4,16 +4,15 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Yves\CategoryExporter\Plugin;
+namespace SprykerFeature\Yves\CategoryExporter\Communication\Plugin;
 
-use SprykerEngine\Yves\Kernel\AbstractPlugin;
-use SprykerFeature\Yves\CategoryExporter\CategoryExporterDependencyContainer;
-use SprykerFeature\Yves\CategoryExporter\ResourceCreator\CategoryResourceCreator;
+use SprykerEngine\Yves\Kernel\Communication\AbstractPlugin;
+use SprykerFeature\Yves\CategoryExporter\Communication\CategoryExporterDependencyContainer;
 
 /**
  * @method CategoryExporterDependencyContainer getDependencyContainer()
  */
-class CategoryResourceCreatorPlugin extends AbstractPlugin
+class CategoryResourceCreator extends AbstractPlugin
 {
 
     /**
