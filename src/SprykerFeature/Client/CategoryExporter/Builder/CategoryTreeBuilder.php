@@ -4,9 +4,9 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\CategoryExporter\Service\Builder;
+namespace SprykerFeature\Client\CategoryExporter\Builder;
 
-use SprykerFeature\Client\Storage\Service\StorageClientInterface;
+use SprykerFeature\Client\Storage\StorageClientInterface;
 use SprykerFeature\Shared\Collector\Code\KeyBuilder\KeyBuilderInterface;
 use SprykerFeature\Shared\CategoryExporter\Business\CategoryNodeKeyInterface;
 
