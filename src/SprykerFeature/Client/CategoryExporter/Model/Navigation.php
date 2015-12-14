@@ -4,9 +4,9 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\CategoryExporter\Service\Model;
+namespace SprykerFeature\Client\CategoryExporter\Model;
 
-use SprykerFeature\Client\Storage\Service\StorageClientInterface;
+use SprykerFeature\Client\Storage\StorageClientInterface;
 use SprykerFeature\Shared\Collector\Code\KeyBuilder\KeyBuilderInterface;
 
 class Navigation
