@@ -33,10 +33,6 @@ class CategoryTreeBuilder
      */
     protected $keyBuilder;
 
-    /**
-     * @param \Spryker\Client\Storage\StorageClientInterface $kvReader
-     * @param \Spryker\Shared\KeyBuilder\KeyBuilderInterface $keyBuilder
-     */
     public function __construct(StorageClientInterface $kvReader, KeyBuilderInterface $keyBuilder)
     {
         $this->kvReader = $kvReader;
